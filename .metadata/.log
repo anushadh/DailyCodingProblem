@@ -1,0 +1,197 @@
+!SESSION 2018-05-29 10:04:41.054 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2018-05-29 10:07:30.148
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-29 10:07:30.148
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.jface 2 0 2018-05-29 10:07:42.558
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-29 10:07:42.558
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b079e81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fae388c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-29 10:07:49.117
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-29 10:07:49.133
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-29 10:08:09.998
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abhishek'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-29 10:15:59.534
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-29 10:15:59.550
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-05-30 09:44:00.443 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2018-05-30 10:00:50.775
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-30 10:00:50.775
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.jface 2 0 2018-05-30 10:01:05.924
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-30 10:01:05.924
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4203190,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6add8aac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-30 10:01:37.970
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abhishek'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springsource.ide.eclipse.commons.browser 4 0 2018-05-30 10:01:51.782
+!MESSAGE Could not call browser function extension: addHtml
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Problems executing script: 'window.addHtml("projectWizards", "<a class=\"ide_widget btn btn-black uppercase\" href=\"\" onclick=\"return ide.call('openWizard', 'org.eclipse.jdt.ui.wizards.JavaProjectWizard')\">Create Java Project</a><a class=\"ide_widget btn btn-black uppercase\" href=\"\" onclick=\"return ide.call('openWizard', 'org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard')\">Create Spring Starter Project</a>")'
+	at org.springsource.ide.eclipse.commons.browser.swt.StsBrowserManager.lambda$0(StsBrowserManager.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.springsource.ide.eclipse.commons.browser 4 0 2018-05-30 10:01:51.950
+!MESSAGE Could not call browser function extension: addHtml
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Problems executing script: 'window.addHtml("updates", "<div class=\"blog--container blog-preview\">\t<div class=\"blog--title\">   <i class=\"fa fa-exclamation new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'http://spring.io/tools')\"><b>STS 3.9.4 has been released</b></a>\t</div></div>")'
+	at org.springsource.ide.eclipse.commons.browser.swt.StsBrowserManager.lambda$0(StsBrowserManager.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.springsource.ide.eclipse.commons.browser 4 0 2018-05-30 10:01:52.030
+!MESSAGE Could not call browser function extension: addHtml
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Problems executing script: 'window.addHtml("feeds", "<div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/30/spring-tips-jdbc')\">Spring Tips: JDBC</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>speaker: Josh Long Hi Spring fans! In this installment of Spring Tips we look at the Spring support for the Java Database Connectivity (JDBC) API. Spring’s support for JDBC is one of many reasons a lot ...\t\t<span class=\"author\">Josh Long <i>May 30, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/29/spring-cloud-finchley-rc2-has-been-released')\">Spring Cloud Finchley.RC2 Has Been Released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>On behalf of the community, I am pleased to announce that the Release Candidate 2 (RC2) of the Spring Cloud Finchley Release Train is available today. The release can be found in Spring Milestone repository ...\t\t<span class=\"author\">Ryan Baxter <i>May 30, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/29/this-week-in-spring-may-29th-2018')\">This Week in Spring - May 29th, 2018</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>Hi Spring fans and welcome to another installment of This Week in Spring! I finished last week in Barcelona, Spain, for the epic Spring IO 2018 event (were you there? why not? YOU SHOULD BE IT’S AMAZING ...\t\t<span class=\"author\">Josh Long <i>May 29, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/23/spring-tips-apache-camel')\">Spring Tips: Apache Camel</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>speaker: Josh Long (@starbuxman) Hi Spring fans! In this installment we look at the Apache Camel enterprise integration framework, its numerous components, its Java DSL, support for observability, its ...\t\t<span class=\"author\">Josh Long <i>May 23, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/23/this-week-in-spring-may-22nd-2018')\">This Week in Spring - May 22nd, 2018</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>Hi Spring fans! Whew! What a wild week it’s been! I landed in Kiev, Ukraine, last Thursday to present at the epic JEEConf in beautiful Kiev. Then, this weekend it was off to Dublin, Ireland and Belfast ...\t\t<span class=\"author\">Josh Long <i>May 23, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/22/enjoy-quality-time-with-the-spring-and-reactor-communities-at-springone-platform')\">Enjoy quality time with the Spring and Reactor communities at SpringOne Platform</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>Hey there, It feels like SpringOne Platform was only yesterday, and I’m so excited by what’s coming in September! It’s yet another excuse to chat, exchange, share, have a drink, and enjoy quality time ...\t\t<span class=\"author\">Stephane Maldini <i>May 22, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/17/spring-data-lovelace-m3-released')\">Spring Data Lovelace M3 released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>On behalf of the Spring Data team, I’m pleased to announce the availability of the third milestone of the Lovelace release train. This release ships with updates for all store modules that contain new ...\t\t<span class=\"author\">Christoph Strobl <i>May 17, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/16/spring-cloud-data-flow-1-5-0-released')\">Spring Cloud Data Flow 1.5.0 Released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>The Spring Cloud Data Flow team is pleased to announce the 1.5.0 GA release. Follow the Getting Started guides for Local Server, Cloud Foundry, and Kubernetes. Here are the highlights: UI Improvements ...\t\t<span class=\"author\">Mark Pollack <i>May 17, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/16/spring-tips-project-riff-and-spring-cloud-function')\">Spring Tips: Project Riff and Spring Cloud Function</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>speaker: Josh Long Hi Spring fans! In this installment of Spring Tips we look at Spring Cloud Function (which lets you write serverless functions that run on your favorite function-as-a-service provider ...\t\t<span class=\"author\">Josh Long <i>May 16, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/15/this-week-in-spring-may-15th-2018')\">This Week in Spring - May 15th, 2018</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>Hi Spring fans and welcome to another installment of This Week in Spring! I just returned from a month of travel on Saturday, and on Sunday I was off to Denver, CO, for the epic SpringOne Tour Denver show ...\t\t<span class=\"author\">Josh Long <i>May 16, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/15/spring-security-5-1-0-m1-released')\">Spring Security 5.1.0.M1 Released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>On behalf of the community I’m pleased to announce the release of Spring Securiity 5.1.0.M1. This release resolves over 80 tickets. The highlights can be seen below: Spring Security OAuth2 Client Support ...\t\t<span class=\"author\">Rob Winch <i>May 15, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/11/new-tutorial-about-spring-boot-and-kotlin')\">New tutorial about Spring Boot and Kotlin</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>For 2 years, we have introduced Kotlin support in Spring projects (Framework, Boot, Data) and published various blog posts, sample projects, slides and documentation. Today, we are publishing an opinionated ...\t\t<span class=\"author\">Sébastien Deleuze <i>May 11, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/10/spring-io-platform-cairo-sr1')\">Spring IO Platform Cairo SR1</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>I am pleased to announce that Spring IO Platform Cairo-SR1 is now available from both repo.spring.io and Maven Central. This maintenance release upgrades the versions of a number of the projects in the ...\t\t<span class=\"author\">Andy Wilkinson <i>May 10, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/10/spring-io-platform-brussels-sr10')\">Spring IO Platform Brussels SR10</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>I am pleased to announce that Spring IO Platform Brussels-SR10 is now available from both repo.spring.io and Maven Central. This maintenance release upgrades the versions of a number of the projects in ...\t\t<span class=\"author\">Andy Wilkinson <i>May 10, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/09/spring-cloud-data-flow-1-5-rc1-released')\">Spring Cloud Data Flow 1.5 RC1 released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>The Spring Cloud Data Flow team is pleased to announce the release of 1.5.0 RC1. Follow the Getting Started guides for Local Server, Cloud Foundry, and Kubernetes. Here are the highlights: General Improvements ...\t\t<span class=\"author\">Mark Pollack <i>May 10, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/09/spring-project-vulnerability-reports-published')\">Spring Project Vulnerability Reports Published</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>The following CVEs have been published today: CVE-2018-1257 for Spring Framework 5.0.6, 4.3.17. CVE-2018-1258 for Spring Security 5.0.5. CVE-2018-1259 for Spring Data Ingalls SR12, Kay SR7. CVE-2018-1260 ...\t\t<span class=\"author\">Rossen Stoyanchev <i>May 9, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/09/spring-tips-spring-security-5-oauth-clients')\">Spring Tips: Spring Security 5 OAuth Clients</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>speaker: Josh Long Hi Spring fans! In this installment we’ll look at the new OAuth client support in Spring Security 5. \t\t<span class=\"author\">Josh Long <i>May 9, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/09/spring-boot-2-0-2')\">Spring Boot 2.0.2</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>On behalf of the team and the community, I am pleased to announce that Spring Boot 2.0.2 is now available from repo.spring.io and Maven Central. Spring Boot 2.0.2 includes over 80 fixes, improvements, ...\t\t<span class=\"author\">Andy Wilkinson <i>May 9, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/09/spring-boot-1-5-13')\">Spring Boot 1.5.13</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>On behalf of the team and community, I am pleased to announce that Spring Boot 1.5.13 has been released and is is now available from repo.spring.io and Maven Central. Spring Boot 1.5.13 includes over 20 ...\t\t<span class=\"author\">Andy Wilkinson <i>May 9, 2018</i></span></p>\t\t</div>\t</div></div><div class=\"blog--container blog-preview\">\t<div class=\"blog--title\"><i class=\"fa fa-star new-star\"></i>\t<a href=\"\" onclick=\"return ide.call('openWebPage', 'https://spring.io/blog/2018/05/08/spring-security-oauth-2-3-3-2-2-2-2-1-2-2-0-15-released')\">Spring Security OAuth 2.3.3, 2.2.2, 2.1.2, 2.0.15 Released</a>\t</div>\t<div class=\"blog--post\">\t\t<div>\t\t\t<p>I’m pleased to announce the releases of Spring Security OAuth 2.3.3, 2.2.2, 2.1.2 and 2.0.15. These maintenance releases primarily deliver bug fixes. For a complete list of changes, please refer to: 2 ...\t\t<span class=\"author\">Joe Grandja <i>May 9, 2018</i></span></p>\t\t</div>\t</div></div>")'
+	at org.springsource.ide.eclipse.commons.browser.swt.StsBrowserManager.lambda$0(StsBrowserManager.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-30 10:26:12.868
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-30 10:26:12.915
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-30 10:48:58.798
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-30 10:48:58.845
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
