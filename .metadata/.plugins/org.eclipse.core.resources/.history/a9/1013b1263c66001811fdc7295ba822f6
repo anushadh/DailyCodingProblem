@@ -1,0 +1,49 @@
+package problems;
+
+import java.util.Scanner;
+
+public class Test {
+	
+	 public static void main(String args[] ) throws Exception {
+
+		 Scanner s = new Scanner(System.in);
+	        int M = s.nextInt();
+	        int N = s.nextInt();
+	        char[][] forest = new char[M][N];
+	        
+	        for(int i = 0; i < M; i++) {
+	            String line = s.next();
+	            for(int j = 0; j < N; j++) {
+	                forest[i][j] = line.charAt(j);
+	                System.out.print(forest[i][j]);
+	            }
+	            System.out.println();
+	        }
+	        int Q = s.nextInt();
+	        for(int i = 0; i < Q; i++) {
+	            int K = s.nextInt();
+	            find(forest, M, N, K);
+	        }
+	        
+	    }
+	 
+	 static void find(char[][] forest, int M, int N, int K) {
+		 int count = 0;
+		 for(int i = 0; i < M-K+1; i++) {
+	            for(int j = 0; j < N-K+1; j++) {
+	                
+	                for (int p = i; p < K+i; p++) {
+	                	for (int q = j; q < K+j; q++)
+	                    	if(forest[p][q] != '*' ) {
+	    	                	break;
+	    	                }  count++;	
+	                }
+	                    
+	            }
+	            
+	                       
+	        }
+		 System.out.println(count);
+	 }
+
+}

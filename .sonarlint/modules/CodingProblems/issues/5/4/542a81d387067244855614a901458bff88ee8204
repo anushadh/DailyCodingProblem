@@ -1,19 +1,19 @@
 
-k
-squid:S106"9Replace this use of System.out or System.err by a logger.(ší‹±8ïªğûº,H}RMAJORZ
-CODE_SMELL
-d
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ò­ŒH~RMAJORZ
-CODE_SMELL
-p
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ÍÑ£Şøÿÿÿÿ8èòçûº,HRMAJORZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ší‹±8²Óâûº,H€RMAJORZ
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò­ŒHùRMAJORZ
 CODE_SMELL
 q
-squid:S106D"9Replace this use of System.out or System.err by a logger.(ÙÕ˜şÿÿÿÿ8Š¬şûº,HRMAJORZ
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ÍÑ£Şøÿÿÿÿ8èòçûº,HúRMAJORZ
 CODE_SMELL
 e
-squid:S1061"9Replace this use of System.out or System.err by a logger.(öËò¢H‚RMAJORZ
+squid:S1061"9Replace this use of System.out or System.err by a logger.(öËò¢HûRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ší‹±8²Óâûº,HüRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ší‹±8ïªğûº,HıRMAJORZ
+CODE_SMELL
+q
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ÙÕ˜şÿÿÿÿ8Š¬şûº,HşRMAJORZ
 CODE_SMELL
