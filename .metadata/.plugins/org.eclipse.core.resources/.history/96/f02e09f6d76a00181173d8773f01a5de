@@ -1,0 +1,36 @@
+package problems;
+
+/*Identify whether one array is a subset of another, Intersection of two arrays*/
+
+
+public class QuadraticComplexity {
+	public static void main(String[] args) {
+		
+		int[] array1 = new int[] {3, 4, 5};
+		int[] array2 = new int[] {1, 2, 3, 4, 5, 6};
+		
+		QuadraticComplexity obj = new QuadraticComplexity();
+		boolean isSubArray = obj.isSubArray(array1, array2);
+		System.out.println("Array1 is a subset of Array2:: " + isSubArray);
+	}
+	
+	private boolean isSubArray(int[] array1, int[] array2) {
+		
+		for(int i = 0; i < array1.length; i++) {
+			boolean isSubArray = false;
+			for(int j = 0; j < array2.length; j++) {
+				if(array1[i] == array2[j]) {
+					isSubArray = true;
+					continue;
+				}
+			}
+			if(!isSubArray) {
+				return false;
+			}
+		}
+		
+		return false;
+	}
+	
+	
+}

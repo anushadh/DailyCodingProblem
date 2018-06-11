@@ -14,17 +14,17 @@ Follow-up: what if you can't use division?  --- IMPROVISE
 */
 public class Day2 {
 	
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		int[] array = new int[]{1, 2, 3, 4, 5};
-		//int[] array = new int[]{3, 2, 1};
 		int size = array.length;
-		int[] newArray = new int[size];
-		findNewArray(array, size, newArray);
-		findNewArray(array,  newArray, size);
+		long[] newArray = new long[size];
+		findNewArray1(array, size, newArray);
+		findNewArray2(array,  newArray, size);
+		findNewArray3(array, size, newArray);
 	}
 	
-	//Approach 1: Using product and division
-	static void findNewArray(int[] array, int size, int[] newArray) {
+	//Approach 1: Using product and division o(n^2)
+	static void findNewArray1(int[] array, int size, long[] newArray) {
 		int product = 1;
 		for(int i = 0; i < size; i++) {
 			product *= array[i];
@@ -37,8 +37,8 @@ public class Day2 {
 		System.out.println(Arrays.toString(newArray));
 	}
 	
-	//Approach 2: without using division
-	static void findNewArray(int[] array, int[] newArray, int size) {
+	//Approach 2: without using division o(n^2)
+	static void findNewArray2(int[] array, long[] newArray, int size) {
 		for(int i = 0; i < size; i++) {
 			int product = 1;
 			for(int j = 0; j < size; j++) {
@@ -52,6 +52,14 @@ public class Day2 {
 		System.out.println(Arrays.toString(newArray));
 	}
 	
+	//Approach 3: without using division O(n)
+		static void findNewArray3(int[] array, int size, long[] newArray) {
+			for(int i = 0; i < size; i++) {
+				
+			}
+			
+			System.out.println(Arrays.toString(newArray));
+		}
 	
 
 }

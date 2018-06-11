@@ -1,0 +1,98 @@
+package problems;
+
+import java.util.Arrays;
+
+public class BigONotation {
+	
+	private int[] array;
+	private int arraySize, itemsInArray;
+	private long startTime, endTime;
+	
+	public static void main(String[] args) {
+		
+		BigONotation algo1 = new BigONotation(100);
+		//O(1) add an item into an array
+		/*algo1.addElement(10);
+		System.out.println(Arrays.toString(algo1.array));*/
+		
+		//O(N) -- Linear Search
+		//O(log N) -- Binary Search
+		BigONotation algo2 = new BigONotation(100);
+		algo2.generateArray();
+		algo2.linearSearch(10);
+		
+		algo2.binarySearch(10);
+		
+		BigONotation algo3 = new BigONotation(200);
+		algo3.generateArray();
+		algo3.linearSearch(30);
+		
+		algo3.binarySearch(30);
+		BigONotation algo4 = new BigONotation(500);
+		algo4.generateArray();
+		algo4.linearSearch(20);
+		
+		algo4.binarySearch(20);
+		
+	}
+	
+	/*O(log N) - */
+	public void binarySearch(int element) {
+		//Arrays.sort(array);
+		startTime = System.currentTimeMillis();
+		int start = 0, end = arraySize - 1, mid = 0;		
+		int loopCount = 0;
+		while(start <= end) {
+			mid = (start+end)/2;
+			if(array[mid] < element) {
+				start = mid + 1;
+			} else if(array[mid] > element) {
+				end = mid - 1;
+			} else {
+				start = end + 1;
+				System.out.println("BS-Element found at:: " + mid);
+			}
+			loopCount++;
+		}
+		endTime = System.currentTimeMillis();		
+		System.out.println("Time taken:: " + (endTime-startTime) + "in " + loopCount + "loops");
+	}
+	
+	/*O(N) - the time taken is directly proportional to the size of data
+	 * For finding an element in the array, linear search has to be performed
+	 * to look up at each and every index to find a match */
+	public void linearSearch(int element) {
+		startTime = System.currentTimeMillis();
+		String elementFound = "";
+		for(int i = 0; i < arraySize; i++) {
+			if(element == array[i]) {
+				elementFound += i + " ";
+			}
+		}
+		endTime = System.currentTimeMillis();
+		System.out.println("LS-Element found at:: " + elementFound);
+		
+		System.out.println("Time taken:: " + (endTime-startTime));
+	}
+		
+	/*O(1) takes constant time to execute irrespective 
+	of the increase in size of data*/
+	public void addElement(int element) {
+		startTime = System.currentTimeMillis();
+		array[itemsInArray++] = element;
+		endTime = System.currentTimeMillis();
+		System.out.println("Time taken:: " + (endTime-startTime));
+	}
+	
+	public void generateArray() {
+		for(int i = 0; i < arraySize; i++) {
+			array[i] = (int) ((Math.random()*1000) +10);
+		}
+		itemsInArray = arraySize - 1;
+	}
+	
+	public BigONotation(int size) {
+		arraySize = size;
+		array = new int[arraySize];
+	}
+}

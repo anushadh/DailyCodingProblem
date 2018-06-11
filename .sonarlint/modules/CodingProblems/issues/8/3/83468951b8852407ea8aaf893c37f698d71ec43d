@@ -1,14 +1,17 @@
 
 q
-squid:S106%"9Replace this use of System.out or System.err by a logger.(“Ôê¾ûÿÿÿÿ8è¿£»,H”RMAJORZ
-CODE_SMELL
-qsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8Øƒ¦£»,H•RMINORZ
+squid:S1064"9Replace this use of System.out or System.err by a logger.(“Ôê¾ûÿÿÿÿ8£ÒÖ£»,HRMAJORZ
 CODE_SMELL
 q
-squid:S106 "9Replace this use of System.out or System.err by a logger.(³ÀÈùÿÿÿÿ8µÓ´£»,H’RMAJORZ
+squid:S106%"9Replace this use of System.out or System.err by a logger.(“Ôê¾ûÿÿÿÿ8è¿£»,HRMAJORZ
 CODE_SMELL
 q
-squid:S1064"9Replace this use of System.out or System.err by a logger.(“Ôê¾ûÿÿÿÿ8£ÒÖ£»,H–RMAJORZ
+squid:S106="9Replace this use of System.out or System.err by a logger.(“Ôê¾ûÿÿÿÿ8¼Í¤¼,H–RMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œØ÷„ùÿÿÿÿ8£éÉ£»,H“RMAJORZ
+`squid:S11728",Remove this unused method parameter "array".(¼íû8ÉÂ‡¤¼,HœRMAJORZ
+CODE_SMELL
+q
+squid:S106 "9Replace this use of System.out or System.err by a logger.(³ÀÈùÿÿÿÿ8µÓ´£»,HRMAJORZ
+CODE_SMELL
+^squid:S001089")Either remove or fill this block of code.(ÎÂ²¸8úş±¤¼,H RMAJORZ
 CODE_SMELL
