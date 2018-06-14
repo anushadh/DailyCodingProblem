@@ -1,0 +1,18 @@
+package algorithms;
+
+public class LinearSearch {
+	
+	public static void main(String[] args) {
+		
+		int[] array = new int[] {54, 67, 87, 32, 34};
+		int k = 21;
+		
+		LinearSearch ls = new LinearSearch();
+		int index = ls.findElementInArray(array, array.length, k);
+		
+	}
+	
+	private int findElementInArray(int[] array, int size, int k) {
+		
+	}
+}

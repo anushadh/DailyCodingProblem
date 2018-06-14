@@ -1,0 +1,14 @@
+
+q
+squid:S106("9Replace this use of System.out or System.err by a logger.(ªëÂ“ûÿÿÿÿ8Ê®ã»¿,HÐRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(³Ùþèùÿÿÿÿ8’£Û»¿,HÊRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(…¸ë8§Œå»¿,HáRMAJORZ
+CODE_SMELL
+nsquid:S1854":Remove this useless assignment to local variable "array2".(óÈþÉ8§Øº¼¿,HæRMAJORZ
+CODE_SMELL
+_squid:S1481"+Remove this unused "array2" local variable.(óÈþÉ8§Øº¼¿,HåRMINORZ
+CODE_SMELL

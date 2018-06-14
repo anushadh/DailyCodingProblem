@@ -1,0 +1,16 @@
+package algorithms;
+
+public class BinarySearch {
+	public static void main(String[] args) {
+		
+		int[] array = new int[] {4, 7, 9, 3, 2, 8, 1}; //Unsorted Array
+		int[] sortedArray = new int[] {3, 5, 7, 9, 10};
+		
+		BinarySearch bs = new BinarySearch();
+		int index 
+	}
+	
+	private int binarySearchOfElement(int[] array, int size; int k) {
+		
+	}
+}

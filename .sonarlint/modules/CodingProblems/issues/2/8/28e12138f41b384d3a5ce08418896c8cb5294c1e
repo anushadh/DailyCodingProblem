@@ -1,48 +1,0 @@
-
-Isquid:S1643`"Use a StringBuilder instead.(ÑÂ¢HãRMINORZ
-CODE_SMELL
-Wsquid:S1659"*Declare "itemsInArray" on a separate line.(ßäÓöHäRMINORZ
-CODE_SMELL
-Rsquid:S1659	"%Declare "endTime" on a separate line.(”‚“”HåRMINORZ
-CODE_SMELL
-Nsquid:S1659E"!Declare "end" on a separate line.(Æñ³ıHæRMINORZ
-CODE_SMELL
-Nsquid:S1659E"!Declare "mid" on a separate line.(Æñ³ıHçRMINORZ
-CODE_SMELL
-wsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(şÑ§HèRMAJORZ
-CODE_SMELL
-xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡¡ÛÖHéRMAJORZ
-CODE_SMELL
-e
-squid:S106&"9Replace this use of System.out or System.err by a logger.(ŠñæHêRMAJORZ
-CODE_SMELL
-j
-squid:S106+"9Replace this use of System.out or System.err by a logger.(Ÿ—çªÿÿÿÿÿHëRMAJORZ
-CODE_SMELL
-e
-squid:S106<"9Replace this use of System.out or System.err by a logger.(ñ¡ûHìRMAJORZ
-CODE_SMELL
-j
-squid:S106N"9Replace this use of System.out or System.err by a logger.(·­ŞÍúÿÿÿÿHíRMAJORZ
-CODE_SMELL
-d
-squid:S106T"9Replace this use of System.out or System.err by a logger.(¼Ú4HîRMAJORZ
-CODE_SMELL
-j
-squid:S106U"9Replace this use of System.out or System.err by a logger.(İ§¬üÿÿÿÿHïRMAJORZ
-CODE_SMELL
-j
-squid:S106d"9Replace this use of System.out or System.err by a logger.(¾Ô¬ïúÿÿÿÿHğRMAJORZ
-CODE_SMELL
-e
-squid:S106e"9Replace this use of System.out or System.err by a logger.(½ØŸ¬HñRMAJORZ
-CODE_SMELL
-j
-squid:S106n"9Replace this use of System.out or System.err by a logger.(î©€‚úÿÿÿÿHòRMAJORZ
-CODE_SMELL
-\squid:S1481"*Remove this unused "algo1" local variable.(ö£½ƒıÿÿÿÿHóRMINORZ
-CODE_SMELL
-Usquid:S2140y")Use "java.util.Random.nextInt()" instead.(Ò‰ÙHôRMINORZ
-CODE_SMELL
-ksquid:S1854"9Remove this useless assignment to local variable "algo1".(ö£½ƒıÿÿÿÿHõRMAJORZ
-CODE_SMELL

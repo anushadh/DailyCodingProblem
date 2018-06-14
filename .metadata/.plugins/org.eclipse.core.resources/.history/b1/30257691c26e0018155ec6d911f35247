@@ -1,0 +1,36 @@
+package algorithms;
+
+public class BinarySearch {
+	public static void main(String[] args) {
+		
+		int[] array = new int[] {4, 7, 9, 3, 2, 8, 1}; 
+		int[] sortedArray = new int[] {3, 5, 7, 9, 10};
+		int k = 7;
+		BinarySearch bs = new BinarySearch();
+		System.out.println("****Unsorted Array****");
+		int index = bs.binarySearchOfElement(array, sortedArray.length, k);
+		if(index < 0) {
+			System.out.println("Element not found");
+		} else {
+			System.out.println("Element found at:: " + index);
+		}
+		System.out.println("****Sorted Array****");
+		index = bs.binarySearchOfElement(sortedArray, sortedArray.length, k);
+		if(index < 0) {
+			System.out.println("Element not found");
+		} else {
+			System.out.println("Element found at:: " + index);
+		}
+	}
+	
+	private int binarySearchOfElement(int[] array, int size, int k) {
+		int start = 0;
+		int end = size-1;
+		
+		while(start < end) {
+			
+		}
+		
+		return -1;
+	}
+}
