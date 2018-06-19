@@ -14,7 +14,7 @@ public class BinarySearch {
 		int k = 7;
 		BinarySearch bs = new BinarySearch();
 		System.out.println("****Unsorted Array****");
-		int index = bs.binarySearchOfElement(array, array.length, k);
+		int index = bs.binarySearchOfElement(array, sortedArray.length, k);
 		if(index < 0) {
 			System.out.println("Element not found");
 		} else {
@@ -26,13 +26,6 @@ public class BinarySearch {
 			System.out.println("Element not found");
 		} else {
 			System.out.println("Element found at:: " + index);
-		}
-		//Not working
-		int element = bs.binarySearch(array, k, 0, sortedArray.length-1);
-		if(element < 0) {
-			System.out.println("Element not found");
-		} else {
-			System.out.println("Element found at:: " + element);
 		}
 	}
 	
@@ -56,14 +49,13 @@ public class BinarySearch {
 	private int binarySearch(int[] array, int k, int start, int end) {
 		if(start > end) {
 			return -1;
-		}		
+		}
+		
 		int mid = (start + end)/2;
 		if(k == array[mid]) {
 			return mid;
 		} else if(k > array[mid]) {
-			binarySearch(array, k, mid+1, end);
-		} else {
-			binarySearch(array, k, start, mid-1);
+			binarySearch(array, k, mid+1, end])
 		}
 		
 		return -1;

@@ -27,7 +27,7 @@ public class BinarySearch {
 		} else {
 			System.out.println("Element found at:: " + index);
 		}
-		//Not working
+		
 		int element = bs.binarySearch(array, k, 0, sortedArray.length-1);
 		if(element < 0) {
 			System.out.println("Element not found");

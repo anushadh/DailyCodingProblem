@@ -1,23 +1,29 @@
 
-Zsquid:S11721"&Remove these unused method parameters.(×ªñŠ8Ÿ¨Î¼¿,HğRMAJORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªªàüÿÿÿÿ8Ş²¡»¿,H–RMAJORZ
+‹squid:S1192"TDefine a constant instead of duplicating this literal "Element found at:: " 3 times.(…ØŒ8“¼å¿,H˜	RCRITICALZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(…ØŒ8¢Ÿ»¿,H”RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ØŒ8¢Ÿ»¿,H‚	RMAJORZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8¢Ÿ»¿,H•RMAJORZ
-CODE_SMELL
-ssquid:UnusedPrivateMethod1"1Remove this unused private "binarySearch" method.(×ªñŠ8Ÿ¨Î¼¿,HïRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8¢Ÿ»¿,Hƒ	RMAJORZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÙåÜ†øÿÿÿÿ8˜º˜»¿,H‡RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8’‘š»¿,H€	RMAJORZ
+CODE_SMELL
+q
+squid:S106!"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8“¼å¿,H™	RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªªàüÿÿÿÿ8Ş²¡»¿,H	RMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(…ØŒ8Ö„¢»¿,H—RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ØŒ8Ö„¢»¿,HÿRMAJORZ
+CODE_SMELL
+squid:S1192"RDefine a constant instead of duplicating this literal "Element not found" 3 times.(×¦ÉËùÿÿÿÿ8“¼å¿,H—	RCRITICALZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8’‘š»¿,H‰RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙåÜ†øÿÿÿÿ8˜º˜»¿,H…	RMAJORZ
+CODE_SMELL
+k
+squid:S106#"9Replace this use of System.out or System.err by a logger.(º¾Ñ/8“¼å¿,Hš	RMAJORZ
 CODE_SMELL
