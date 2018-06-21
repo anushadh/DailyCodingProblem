@@ -1,0 +1,21 @@
+package algorithms;
+
+
+/* O(Root N) - Works for Sorted lists
+ * As the name says jump search jumps by m blocks while 
+ * traversing, and if the element found is greater than required element,
+ * we will jump back to m-1th element to do linear search.
+ * Performance is between Linear and Binary Search
+ */
+
+public class JumpSearch {
+
+	public static void main(String[] args) {
+		
+		int[] array = new int[] {0, 1, 1, 2, 3, 5, 8, 13, 21,
+                34, 55, 89, 144, 233, 377, 610};
+		int size = array.length;
+		
+	}
+
+}

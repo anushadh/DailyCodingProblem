@@ -28,7 +28,7 @@ public class BinarySearch {
 			System.out.println("Element found at:: " + index);
 		}
 		//Not working
-		int element = bs.binarySearch(array, k, 0, sortedArray.length-1);
+		int element = bs.binarySearch(sortedArray, k, 0, sortedArray.length-1);
 		if(element < 0) {
 			System.out.println("Element not found");
 		} else {
@@ -52,7 +52,7 @@ public class BinarySearch {
 		}		
 		return -1;
 	}
-	
+	//Recursive
 	private int binarySearch(int[] array, int k, int start, int end) {
 		if(start > end) {
 			return -1;
